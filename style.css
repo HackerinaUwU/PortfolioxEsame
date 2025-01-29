@@ -1,0 +1,427 @@
+@font-face {
+    font-family: Roundo;
+    src: url(Font/Roundo-Regular.ttf);
+}
+
+a {
+    color:#DE9463;
+}
+
+body {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+header {
+    background-image: url(img_home/Banner2.jpg);
+    background-size: cover;
+    align-items: flex-end;
+    height: 320px;
+}
+
+.header2 {
+    background-image: url(img_home/Banner2.jpg);
+    background-size: cover;
+    align-items: flex-end;
+    height: 220px;
+}
+
+
+#titolo-header {
+    font-family: Roundo;
+    margin: 0px;
+    margin-left: 70px;
+    padding: 0px;
+    padding-top: 155px;
+    font-size: 50px;
+    color: white;
+    border-color: #DE9463;
+    -webkit-text-stroke: 0.3px #DE9463;
+}
+
+.contenitore-profilo {
+    display: flex;
+    flex-direction: row;
+}
+
+.contenitore-profilo-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.img-profilo {
+    height: 350px;
+    border-radius: 200px;
+    margin-top: -150px;
+    margin-bottom: 10px;
+    margin-left: 70px;
+    border: 10px solid #DE9463;
+}
+
+h1 {
+    font-size: 100px;
+    margin: 0;
+    margin-left: 70px;
+    margin-top: -120px;
+    font-style: italic;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #DE9463;
+    -webkit-text-fill-color: white;
+}
+
+
+h2 {
+    font-size: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 275px;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: #DE9463;
+    -webkit-text-fill-color: white;
+}
+
+h3 {
+    font-family: Roundo;
+    margin: 20px;
+    margin-top: 0px;
+    margin-bottom: 96px;
+    font-size: 40px;
+    color: white;
+    border-color: #DE9463;
+    -webkit-text-stroke: 0.2px #DE9463;
+}
+
+
+#separatore {
+    height: 5px;
+    background-color: #F5DDBB;
+    width: 1750px;
+    border: 0px;
+    margin-top: 40px;
+}
+
+hr {
+    height: 5px;
+    background-color: #F5DDBB;
+    width: 2202px;
+    border: 0px;
+}
+
+.hr2 {
+    height: 5px;
+    background-color: #F5DDBB;
+    width: 1400px;
+    border: 0px;
+}
+
+.titolo-categoria {
+    background-color: #DE9463;
+    font-size: 35px;
+    color: white;
+    padding-left: 70px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 0;
+}
+
+.titolo-categoria2 {
+    background-color: #DE9463;
+    font-size: 25px;
+    color: white;
+    padding-left: 20px;
+    padding-top: 0.5px;
+    padding-bottom: 0.5px;
+    margin: 0;
+}
+
+p {
+    margin-left: 70px;
+    margin-right: 70px;
+    font-size: 30px;
+}
+
+.contenitore-elenco {
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.lista-epuntato {
+    font-size: 30px;
+    line-height: 2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contenitore-categorie {
+    display: flex;
+    justify-content: center;
+}
+
+.contenitore-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-categoria {
+    width: 400px;
+    margin: 170px;
+    margin-top: 96px;
+    margin-bottom: 60px;
+    border: 6px solid #F5DDBB;
+    border-radius: 10px;
+}
+
+
+.contenitore-testo-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1490px;
+    background-color: #DE9463;
+}
+
+.testo-footer {
+    color: white;
+}
+
+.contenitore-testo-footer2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 890px;
+    background-color: #DE9463;
+    
+}
+
+.testo-footer2 {
+    color: white;
+    font-size: 20px;
+}
+
+/* ------------------------------------------------------------------ css specifico x p. 1 "Come Fiori" ------------------------------------------------------- */
+
+/* Contenitore del pulsante */
+.button-container {
+    text-align: center;
+}
+
+/* Stile del pulsante */
+.download-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #DE9463; /* Colore arancione del pulsante */
+    padding: 15px 30px;
+    border-radius: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Effetto ombra */
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* Hover effetto */
+.download-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Icona del pulsante */
+.download-button .icon {
+    font-size: 20px;
+}
+
+.centraledesc {
+    text-align: center;
+}
+
+/* ------------------------------------------------------------------ css specifico x p. 2 DD ------------------------------------------------------- */
+
+.works {
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 colonne */
+    grid-template-rows: repeat(2, auto); /* 2 righe */
+    gap: 45px; /* Spaziatura tra gli elementi */
+    padding: 0 00px;
+    justify-content: center;
+    align-items: center;
+}
+
+.work-item img {
+    width: 50%;
+    height: auto;
+    margin: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.work-item img:hover { /* animazione passaggio cursore */
+    transform: scale(1.05);
+}
+
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    width: 90%;
+    background-color: #fff;
+   /* border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);*/
+}
+
+/* Sezione immagine */
+.image img {
+    width: 100%;
+    height: auto;
+    max-width: 700px;
+    object-fit: cover;
+    margin-top: 10px;
+}
+
+.text {
+    padding: 60px;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text p {
+    font-size: 15px;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Stile responsive */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .image img {
+        max-width: 100%;
+    }
+}
+
+
+
+/* ------------------------------------------------------------------ Contatti Pagina------------------------------------------------------- */
+
+.home-icon {
+    display: inline-block;
+    width: 50px; 
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.home-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    transition: transform 0.3s; 
+}
+
+.home-icon img:hover {
+    transform: scale(1.1); 
+}
+
+.img-profilo2 {
+    width: 15%;
+    height: auto;
+    border-radius: 200px;
+    margin: auto;
+    margin-top: 70px;
+    border: 5px solid #DE9463;
+}
+
+.contacts-container {
+    display: flex;
+    align-items: center;
+    gap: 20px; /*Spazio tra le icone, divisore e contatti*/
+    margin-top: 30px;
+    margin-bottom: -100px;
+    margin-left: 400px;
+    margin-right: 300px;
+    padding: 170px;
+}
+
+/* Colonna delle icone */
+.icons {
+    display: flex;
+    flex-direction: column;
+    gap: 180px;
+}
+
+.icon img {
+    width: 45%;
+
+}
+
+/* Linea verticale divisoria */
+.divider {
+    width: 55px;
+    background-color: #DE9463;
+    height: 350px;
+}
+
+.titolo-categoria3 {
+    background-color: #DE9463;
+    font-size: 25px;
+    color: white;
+    padding-left: 710px;
+    padding-top: 20px;
+    padding-bottom: 0.5px;
+    margin: auto;
+}
+
+/* Colonna delle informazioni */
+.info p {
+    margin: 0 0 10px;
+    font-size: 20px;
+    color: #333;
+}
+
+.info a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+} 
+
+.social-container {
+    display: flex;
+    gap: 30px; 
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Icone social */
+.social-icon img {
+    width: 50px; 
+    height: 50px;
+    border-radius: 50%; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s;
+}
+
+.social-icon img:hover {
+    transform: scale(1.1); 
+}
+
+.info a:hover {
+    color: #DE9463;
+}
