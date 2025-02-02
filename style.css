@@ -18,24 +18,15 @@ header {
     background-image: url(img_home/Banner2.jpg);
     background-size: cover;
     align-items: flex-end;
-    height: 320px;
-}
-
-.header2 {
-    background-image: url(img_home/Banner2.jpg);
-    background-size: cover;
-    align-items: flex-end;
-    height: 220px;
+    height: 220px; 
 }
 
 
 #titolo-header {
     font-family: Roundo;
-    margin: 0px;
     margin-left: 70px;
-    padding: 0px;
-    padding-top: 155px;
-    font-size: 50px;
+    padding-top: 120px;
+    font-size: 25px;
     color: white;
     border-color: #DE9463;
     -webkit-text-stroke: 0.3px #DE9463;
@@ -44,6 +35,7 @@ header {
 .contenitore-profilo {
     display: flex;
     flex-direction: row;
+    margin-top: 60px;
 }
 
 .contenitore-profilo-2 {
@@ -52,21 +44,21 @@ header {
 }
 
 .img-profilo {
-    height: 350px;
+    height: 250px;
     border-radius: 200px;
     margin-top: -150px;
     margin-bottom: 10px;
-    margin-left: 70px;
-    border: 10px solid #DE9463;
+    margin-left: 35px;
+    border: 5px solid #DE9463;
 }
 
 h1 {
-    font-size: 100px;
+    font-size: 50px;
     margin: 0;
     margin-left: 70px;
-    margin-top: -120px;
+    margin-top: -70px;
     font-style: italic;
-    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #DE9463;
     -webkit-text-fill-color: white;
 }
@@ -93,40 +85,32 @@ h3 {
     -webkit-text-stroke: 0.2px #DE9463;
 }
 
+#sp2 {
+    font-family: Roundo;
+    margin-left: 70px;
+    padding-top: 160px;
+    font-size: 40px;
+    color: white;
+    border-color: #DE9463;
+    -webkit-text-stroke: 0.3px #DE9463;
+}
+
 
 #separatore {
     height: 5px;
     background-color: #F5DDBB;
-    width: 1750px;
+    width: 1130px;
     border: 0px;
-    margin-top: 40px;
 }
 
 hr {
     height: 5px;
     background-color: #F5DDBB;
-    width: 2202px;
-    border: 0px;
-}
-
-.hr2 {
-    height: 5px;
-    background-color: #F5DDBB;
-    width: 1400px;
+    width: 1450px;
     border: 0px;
 }
 
 .titolo-categoria {
-    background-color: #DE9463;
-    font-size: 35px;
-    color: white;
-    padding-left: 70px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    margin: 0;
-}
-
-.titolo-categoria2 {
     background-color: #DE9463;
     font-size: 25px;
     color: white;
@@ -139,7 +123,7 @@ hr {
 p {
     margin-left: 70px;
     margin-right: 70px;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .contenitore-elenco {
@@ -148,7 +132,7 @@ p {
 }
 
 .lista-epuntato {
-    font-size: 30px;
+    font-size: 20px;
     line-height: 2;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -167,8 +151,8 @@ p {
 }
 
 .img-categoria {
-    width: 400px;
-    margin: 170px;
+    width: 270px;
+    margin: 90px;
     margin-top: 96px;
     margin-bottom: 60px;
     border: 6px solid #F5DDBB;
@@ -179,32 +163,40 @@ p {
 .contenitore-testo-footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    column-gap: 1490px;
+    column-gap: 890px;
     background-color: #DE9463;
 }
 
 .testo-footer {
     color: white;
-}
-
-.contenitore-testo-footer2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 890px;
-    background-color: #DE9463;
-    
-}
-
-.testo-footer2 {
-    color: white;
     font-size: 20px;
 }
 
+.rojey {
+    margin-left: 670px;
+    color: white;
+    opacity: 70%;
+}
+
+
 /* ------------------------------------------------------------------ css specifico x p. 1 "Come Fiori" ------------------------------------------------------- */
+
+.text2 {
+    display: grid; 
+    grid-template-columns: 500px 1200px;
+}
+.text2 p {
+    margin-left: 300px;
+}
+
+.sp { /* spazio */
+    margin-top: 100px;
+}
 
 /* Contenitore del pulsante */
 .button-container {
     text-align: center;
+    margin-left: 190px;
 }
 
 /* Stile del pulsante */
@@ -236,7 +228,12 @@ p {
 }
 
 .centraledesc {
+    padding-right: 40px;
     text-align: center;
+}
+
+#h2 {
+    margin-left: 540px;
 }
 
 /* ------------------------------------------------------------------ css specifico x p. 2 DD ------------------------------------------------------- */
@@ -276,10 +273,6 @@ p {
     max-width: 1200px;
     width: 90%;
     background-color: #fff;
-   /* border: 1px solid #ddd;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);*/
 }
 
 /* Sezione immagine */
@@ -292,15 +285,13 @@ p {
 }
 
 .text {
-    padding: 60px;
     display: flex; 
     flex-direction: column;
     justify-content: center;
 }
 
 .text p {
-    font-size: 15px;
-    color: #555;
+    font-size: 17px;
     line-height: 1.6;
 }
 
@@ -322,15 +313,13 @@ p {
 
 .home-icon {
     display: inline-block;
-    width: 50px; 
-    height: 40px;
+    width: 80px;
     margin-top: 20px;
     margin-left: 20px;
 }
 
 .home-icon img {
     width: 100%;
-    height: 100%;
     object-fit: cover; 
     transition: transform 0.3s; 
 }
@@ -344,7 +333,7 @@ p {
     height: auto;
     border-radius: 200px;
     margin: auto;
-    margin-top: 70px;
+    margin-top: 20px;
     border: 5px solid #DE9463;
 }
 
