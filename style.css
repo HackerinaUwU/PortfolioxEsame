@@ -18,7 +18,7 @@ header {
     background-image: url(img_home/Banner2.jpg);
     background-size: cover;
     align-items: flex-end;
-    height: 220px; 
+    height: 220px;
 }
 
 
@@ -295,18 +295,6 @@ p {
     line-height: 1.6;
 }
 
-/* Stile responsive */
-@media (max-width: 768px) {
-    .container {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .image img {
-        max-width: 100%;
-    }
-}
-
 
 
 /* ------------------------------------------------------------------ Contatti Pagina------------------------------------------------------- */
@@ -414,3 +402,150 @@ p {
 .info a:hover {
     color: #DE9463;
 }
+
+
+/*--------------------------------------------------------------------------------Responsive-----------------------------------------------------------------------------*/
+
+@media (max-width: 667px) {
+    a {
+        color:#DE9463;
+    }
+    
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+    }
+    
+    header {
+        background-color: #DE9463;
+        color: white;
+        text-align: center;
+        padding: 10px 0;
+    }
+    
+    header img {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        margin-bottom: 10px;
+    }
+    
+    
+    .contenitore-profilo {
+        display: flex;
+        align-items: center;
+        margin-top: 30px;
+        margin-left: -300px;
+    }
+    
+    .img-profilo {
+        width: 150px;
+        height: auto;
+        border-radius: 50%;
+        margin-top: 80px;
+        margin-bottom: 10px;
+        border: 4px solid #DE9463;
+    }
+
+    h1 {
+        font-size: 30px;
+        margin: 5px 0;
+    }
+    
+    h2, h3 {
+        font-size: 30px;
+        text-align: left;
+        margin-left: 0;
+    }
+    
+    p {
+        margin: 10px;
+        margin-left: 300px;
+        font-size: 10px;
+        text-align: left;
+    }
+    
+    
+    .lista-epuntato {
+        font-size: 16px;
+        line-height: 1.5;
+        display: block;
+        margin: 0 auto;
+    }
+    
+    .contenitore-categorie {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .img-categoria {
+        width: 200px;
+        margin: 20px;
+        border: 4px solid #F5DDBB;
+        border-radius: 10px;
+    }
+    
+    .contenitore-testo-footer {
+        display: flex;
+        align-items: left;
+        background-color: #DE9463;
+    }
+    
+    .testo-footer {
+        color: white;
+        font-size: 10px;
+        margin-left: -300px;
+    }
+}
+
+    @media (max-width: 375px) {
+        .text2 {
+            display: block;
+            text-align: center;
+        }
+    
+        .text2 p {
+            margin-left: 10px;
+        }
+    
+        .button-container {
+            margin-left: 0;
+        }
+    
+        .download-button {
+            font-size: 14px;
+            padding: 10px 20px;
+        }
+    
+        .gallery {
+            grid-template-columns: 1fr;
+            gap: 20px;
+        }
+    
+        .contacts-container {
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            margin: 0;
+        }
+    
+        .divider {
+            height: 2px;
+            width: 80%;
+            background-color: #DE9463;
+        }
+    
+        .social-container {
+            gap: 15px;
+            padding: 10px;
+        }
+    
+        .social-icon img {
+            width: 40px;
+            height: 40px;
+        }
+
+        
+    }
