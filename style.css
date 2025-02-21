@@ -416,6 +416,11 @@ footer p{
 
     }
 
+    h2 {
+        font-size: 80px;
+        -webkit-text-stroke-width: 2.5px;
+    }
+
       
     h3 {
         font-size: 60px;
@@ -425,14 +430,14 @@ footer p{
 
     p {
         margin-top: 60px;
-        font-size: 12px;
+        font-size: 14px;
     }
 
-    .text h2 {
+    .text2 h2 {
         margin-top: 30px; 
     }
     
-    .text p {
+    .text2 p {
         margin-top: 10px;
         margin-left: 20%;
         line-height: 1.6;
@@ -505,7 +510,7 @@ footer p{
         font-size: 14px; /* Leggermente ridotto per adattarsi meglio */
         grid-template-columns: 1fr; /* Passa da 2 colonne a 1 colonna */
         text-align: left; /* Allinea il testo a sinistra */
-        line-height: 105px;
+        line-height: 75px;
     }
 
     .image img {
